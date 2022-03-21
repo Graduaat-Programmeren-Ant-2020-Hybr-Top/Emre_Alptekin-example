@@ -46,7 +46,7 @@ export function DrawChart() {
                 <VictoryCandlestick
                     candleColors={{ positive: "#3dcc3d", negative: "#c43a31" }}
                     data={
-                        data.slice(-20)
+                        data.slice(-30)
                     }
                 />
             </VictoryChart>
