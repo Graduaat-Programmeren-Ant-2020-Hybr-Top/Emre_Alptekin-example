@@ -1,12 +1,22 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import {Example} from "./chart";
+
+function ProvidedApp() {
+  return(
+      <>
+        <View style={styles.container}>
+            <Example/>
+            <Text>ETHEREUM / BITCOIN</Text>
+          <StatusBar style="auto" />
+        </View>
+      </>
+  )
+}
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ProvidedApp/>
   );
 }
 
