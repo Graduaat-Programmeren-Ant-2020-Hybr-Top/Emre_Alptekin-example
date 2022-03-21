@@ -1,12 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import {Example} from "./chart";
+import {DrawChart} from "./chart";
 
 function ProvidedApp() {
   return(
       <>
         <View style={styles.container}>
-            <Example/>
+            <DrawChart/>
             <Text>ETHEREUM / BITCOIN</Text>
           <StatusBar style="auto" />
         </View>
