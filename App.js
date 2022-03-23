@@ -7,7 +7,6 @@ function ProvidedApp() {
       <>
         <View style={styles.container}>
             <DrawChart/>
-            <Text>ETHEREUM / BITCOIN</Text>
           <StatusBar style="auto" />
         </View>
       </>
